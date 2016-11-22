@@ -139,6 +139,7 @@ void send_data() {
       return;
     }
   }
+  client.flush();
 }
 
 // called at start by arduino
