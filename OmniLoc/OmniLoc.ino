@@ -1,3 +1,13 @@
+// Omniloc hackathon project
+// Members:
+//   James Marlowe
+//   Michael Orlando
+//   Jonathan Leek
+//   Daniel Benedict
+// Objective:
+//   Passively gather MAC addresses
+//   Report them to server
+
 #ifdef ESP8266
 extern "C" {
 #include "ets_sys.h"
@@ -139,6 +149,7 @@ void send_data() {
       return;
     }
   }
+  client.flush();
 }
 
 // called at start by arduino
