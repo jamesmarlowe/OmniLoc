@@ -8,7 +8,7 @@
 //   Passively gather MAC addresses
 //   Report them to server
 
-#include <OmniLoc.h>
+#include "OmniLoc.h"
 
 const char* ssid     = ""; // local wifi network
 const char* password = ""; // local wifi password
